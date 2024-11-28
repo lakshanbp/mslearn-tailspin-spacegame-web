@@ -12,7 +12,7 @@ pool:
 jobs:
 - job: Build
   pool:
-    name: 'KAPS'  # Replace with your agent pool name
+    name: 'Default'  # Replace with your agent pool name
   steps:
   - task: UseDotNet@2
     inputs:
