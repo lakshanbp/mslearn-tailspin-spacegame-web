@@ -1,5 +1,3 @@
-
-
 # Bks Azure DevOps CI/CD Pipeline
 trigger:
 - '*'
