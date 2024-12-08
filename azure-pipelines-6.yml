@@ -63,5 +63,5 @@ steps:
   displayName: 'Deploy to Azure App Service'
   inputs:
     azureSubscription: 'sapacegame'
-    appName: 'sapacegame'
+    appName: 'sapcegame'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
