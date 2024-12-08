@@ -62,6 +62,6 @@ steps:
 - task: AzureWebApp@1
   displayName: 'Deploy to Azure App Service'
   inputs:
-    azureSubscription: 'sapacegame'
+    azureSubscription: 'spacegame'
     appName: 'sapacegame'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
